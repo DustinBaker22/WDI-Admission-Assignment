@@ -1,9 +1,15 @@
+* {
+	margin: 0;
+}
 header {
 	text-align: center;
 	font-family:"Roboto";
-	background: url("bluecode1.jpg");
+	background: url("images/bluecode1.jpg");
 	background-size: 100em;
 	color: white;
+}
+.nav {
+	margin: 10px 0 10px 0;
 }
 .nav a {
 	color:#FFF;
@@ -26,6 +32,7 @@ header {
 	text-decoration: none;
 }
 .post-nav {
+	margin: 10px 0 10px 0;
 	text-align: center;
 	font-family: "Roboto";
 }
@@ -53,7 +60,14 @@ header {
 	transition-delay: initial;
 	text-decoration: none;
 }
+.nav .selected {
+	color: #2E9AFE;
+}
+.post-nav .cat-select {
+	color: #00FF00;
+}
 h1 {
+	margin: 5px;
 	text-align: center;
 	font-family: "Roboto";
 	/*font-family: monospace;*/
@@ -80,6 +94,7 @@ p a:hover {
 	color:#00FF00;
 }
 p {
+	margin: 10px;
 	padding: 10px 50px;
 }
 footer {
@@ -124,7 +139,9 @@ footer ul li a {
 .text a:hover {
 	color:#00FF00;
 }
-
+.contact, .email, .phone, .text {
+	padding:10px;
+}
 html, body {
 	height: 100%;
 }
@@ -134,9 +151,9 @@ html, body {
 	height:100%;
 	margin:0 auto -4em;
 }
-.footer, .push {
+/*.footer, .push {
 	height: 4em;
-}
+}*/
 
 @media (max-width: 1000px) {
 	.pic {
